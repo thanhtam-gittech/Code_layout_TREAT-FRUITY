@@ -178,15 +178,13 @@ body {
         }
       }
     }
-    .ice-cream-image {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img {
+    img {
+        position: relative; 
+        top: 23px;
+        right: 65px;
+        z-index: 1;
         max-width: 100%;
         height: auto;
       }
-    }
   }
 }
